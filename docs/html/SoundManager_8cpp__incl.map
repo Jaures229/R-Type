@@ -1,0 +1,21 @@
+<map id="Client/src/SoundManager.cpp" name="Client/src/SoundManager.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="315,5,526,31"/>
+<area shape="rect" id="Node000002" href="$SoundManager_8hpp.html" title=" " alt="" coords="316,79,525,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="423,31,423,65,418,65,418,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,132,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="365,107,139,152,138,147,364,101"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="157,152,207,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="382,107,222,154,220,149,381,102"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="231,152,290,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="396,106,300,149,298,144,394,102"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="314,152,394,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="412,106,376,144,372,140,408,103"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="418,152,557,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="434,103,469,140,465,144,430,106"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="581,152,655,177"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="453,102,574,145,572,150,451,107"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="679,152,765,177"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="470,101,667,148,665,153,468,107"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="789,152,876,177"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="494,101,776,149,775,155,493,107"/>
+</map>

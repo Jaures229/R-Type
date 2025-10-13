@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['name_0',['name',['../structBinaryProtocol_1_1PlayerScore.html#a1634b8afa8a14c3841b4984c6b803169',1,'BinaryProtocol::PlayerScore::name'],['../structBinaryProtocol_1_1NewClient.html#acef4fdd8ad26fbc0c0b6ccdfb1e17e9c',1,'BinaryProtocol::NewClient::name'],['../structPowerUp.html#ad42007a749ac321f23b9e23e2aab47ac',1,'PowerUp::name']]],
+  ['nameentryscreen_1',['nameentryscreen',['../classNameEntryScreen.html',1,'NameEntryScreen'],['../classNameEntryScreen.html#a0976a4a87f536b172861a69f66510af8',1,'NameEntryScreen::NameEntryScreen()']]],
+  ['nameentryscreen_2ecpp_2',['NameEntryScreen.cpp',['../NameEntryScreen_8cpp.html',1,'']]],
+  ['nameentryscreen_2ehpp_3',['NameEntryScreen.hpp',['../NameEntryScreen_8hpp.html',1,'']]],
+  ['nb_5fboss_4',['nb_boss',['../structBinaryProtocol_1_1Boss__create.html#a4680ba06665edec3ae4e67512a99fdf3',1,'BinaryProtocol::Boss_create']]],
+  ['nb_5fbullet_5',['nb_bullet',['../structBinaryProtocol_1_1Protocol__Enemy__Bullet__create.html#a3c914a206e318f257d4795f39de51426',1,'BinaryProtocol::Protocol_Enemy_Bullet_create::nb_bullet'],['../structBinaryProtocol_1_1Protocol__Enemy__Bullet.html#ac882b951c267f81be4773c79695e48a1',1,'BinaryProtocol::Protocol_Enemy_Bullet::nb_bullet']]],
+  ['nb_5fclient_6',['nb_client',['../structBinaryProtocol_1_1Players__health.html#a79d2fbe8b3b0bd6c1b4b54ddafc19d4d',1,'BinaryProtocol::Players_health::nb_client'],['../structBinaryProtocol_1_1Enemy.html#ac91ecff9b4290568edd91ea793757a20',1,'BinaryProtocol::Enemy::nb_client'],['../structBinaryProtocol_1_1Shoot__info.html#ab3a8cc1f63e111b93f7b733558062341',1,'BinaryProtocol::Shoot_info::nb_client'],['../structBinaryProtocol_1_1Enemy__list.html#aeda28ce7d4fd56aebea54297f974f1be',1,'BinaryProtocol::Enemy_list::nb_client'],['../structBinaryProtocol_1_1Client__list__update.html#acd88d0c8c6f54cdbed149fed097b2538',1,'BinaryProtocol::Client_list_update::nb_client'],['../structBinaryProtocol_1_1Client__list__t.html#a49d55c3667ffa5c3d1a8888c73e25030',1,'BinaryProtocol::Client_list_t::nb_client']]],
+  ['nb_5fcollision_7',['nb_collision',['../structBinaryProtocol_1_1All__collision.html#a4830b3fbffc22a2e5ba4160d6f17c4a6',1,'BinaryProtocol::All_collision']]],
+  ['nb_5fobstacle_8',['nb_obstacle',['../structBinaryProtocol_1_1Obstacle.html#ac53fef102c66ef302ca3287a3bb209d2',1,'BinaryProtocol::Obstacle::nb_obstacle'],['../structBinaryProtocol_1_1Power__up__update.html#a24dc6cfc9e15b0fef2a4e38adc78c13a',1,'BinaryProtocol::Power_up_update::nb_obstacle'],['../structBinaryProtocol_1_1Power__up__create.html#a09e565fbd85fdcaf613080480dccf17b',1,'BinaryProtocol::Power_up_create::nb_obstacle']]],
+  ['nb_5fplayer_9',['nb_player',['../classLobbyTCP.html#aee8331dd08a130a1671be8408fdbca5b',1,'LobbyTCP']]],
+  ['network_2ecpp_10',['network.cpp',['../network_8cpp.html',1,'']]],
+  ['network_2ehpp_11',['network.hpp',['../network_8hpp.html',1,'']]],
+  ['network_5fclient_5finfo_2ecpp_12',['network_client_info.cpp',['../network__client__info_8cpp.html',1,'']]],
+  ['network_5fgenerate_2ecpp_13',['network_generate.cpp',['../network__generate_8cpp.html',1,'']]],
+  ['network_5flobby_2ecpp_14',['network_lobby.cpp',['../network__lobby_8cpp.html',1,'']]],
+  ['network_5fserver_2ecpp_15',['network_server.cpp',['../network__server_8cpp.html',1,'']]],
+  ['network_5fupdate_16',['network_update',['../classGameServer.html#a2ca5d9b54cac5267c88ad46faf1d5d84',1,'GameServer']]],
+  ['network_5fupdate_2ecpp_17',['network_update.cpp',['../network__update_8cpp.html',1,'']]],
+  ['networkentitymapper_18',['NetworkEntityMapper',['../classNetworkEntityMapper.html',1,'']]],
+  ['networkentitymapper_2ecpp_19',['NetworkEntityMapper.cpp',['../NetworkEntityMapper_8cpp.html',1,'']]],
+  ['networkentitymapper_2ehpp_20',['NetworkEntityMapper.hpp',['../NetworkEntityMapper_8hpp.html',1,'']]],
+  ['new_5fclient_21',['NEW_CLIENT',['../namespaceBinaryProtocol.html#a5373a1a4624ee78df30020daa3e70f75a5eb517c4b68758245137c719e1350b38',1,'BinaryProtocol']]],
+  ['newclient_22',['NewClient',['../structBinaryProtocol_1_1NewClient.html',1,'BinaryProtocol']]],
+  ['nextlevel_23',['NextLevel',['../namespaceBinaryProtocol.html#aebed66a201dd1623898d397ad3e3d13b',1,'BinaryProtocol']]],
+  ['nextlevel_5fprotocol_24',['NextLevel_Protocol',['../structBinaryProtocol_1_1NextLevel__Protocol.html',1,'BinaryProtocol']]]
+];

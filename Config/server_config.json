@@ -1,0 +1,29 @@
+{
+    "players": {
+        "health": 100,
+        "speed": 10,
+        "damage": 10
+    },
+    "game": {
+      "score": 0,
+      "spawn1_frequency": 1.5,
+      "spawn2_frequency": 5.5,
+      "power_speed": 2,
+      "power_damage": 10,
+      "power_health": 10,
+      "score_mulipliyer": 10
+    },
+    "enemys": {
+        "health": 100,
+        "speed": 5,
+        "speed2": 20
+    },
+
+    "levels": [
+        "Blue_Nebular",
+        "Green_Nebular",
+        "Red_Nebular",
+        "Yellow_Nebular",
+        "EndLevel"
+    ]
+}

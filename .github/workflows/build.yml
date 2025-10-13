@@ -1,0 +1,68 @@
+name: Build and Test R-Type
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test-Linux:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build-essential cmake
+        
+    - name: Install Conan
+      run: |
+        pip install conan==2.0.9
+        
+    - name: Configure Conan
+      run: |
+        conan profile detect --force
+        conan remote list
+        
+    - name: Install dependencies with Conan
+      run: |
+        mkdir -p build
+        cd build
+        conan install .. --build=missing -c tools.system.package_manager:mode=install -c tools.system.package_manager:sudo=True
+
+  build-and-test-Windows:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install CMake
+      uses: lukka/get-cmake@v3
+      with:
+        cmake-version: '3.24.0'
+
+    - name: Install Conan
+      run: |
+        python -m pip install --upgrade pip
+        pip install conan==2.0.9
+
+    - name: Configure Conan
+      run: |
+        conan profile detect --force
+        conan remote list
+
+    - name: Install dependencies with Conan
+      run: |
+        mkdir build
+        cd build
+        conan install .. --build=missing

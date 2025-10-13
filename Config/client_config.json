@@ -1,0 +1,453 @@
+{
+    "players" : {
+        "player1": "Client/ressources/spaceship3.png",
+        "player2": "Client/ressources/spaceship4.png",
+        "player3": "Client/ressources/spaceship6.png",
+        "player4": "Client/ressources/spaceship5.png",
+        "mod_player1": "Client/ressources/spaceship3.png",
+        "mod_player2": "Client/ressources/spaceship4.png",
+        "mod_player3": "Client/ressources/spaceship6.png",
+        "mod_player4": "Client/ressources/spaceship5.png",
+        "bullet":  "Client/ressources/laser_short_blue.png",
+        "bulletv2": "Client/ressources/laser_blue_long.png",
+        "bulletv3": "Client/ressources/laser_short_red.png",
+        "bulletv4": "Client/ressources/laser_red_long.png",
+        "bulletv5": "Client/ressources/lt_orange.png",
+        "bulletv6": "Client/ressources/lt_white.png",
+        "missile": "Client/ressources/missile.png",
+        "laser": "Client/ressources/laser.png"
+    },
+    "skins": {
+        "skin1": "Client/ressources/skins/skin_1.png",
+        "player2": "Client/ressources/spaceship4.png",
+        "player3": "Client/ressources/spaceship6.png",
+        "player4": "Client/ressources/spaceship5.png",
+        "skin_2": "Client/ressources/skins/skin_2.png",
+        "skin_3": "Client/ressources/skins/skin_3.png",
+        "skin_4": "Client/ressources/skins/skin_4.png",
+        "skin_5": "Client/ressources/skins/skin_5.png",
+        "skin_6": "Client/ressources/skins/skin_6.png",
+        "skin_7": "Client/ressources/skins/skin_7.png",
+        "skin_8": "Client/ressources/skins/skin_8.png",
+        "skin_9": "Client/ressources/skins/skin_9.png",
+        "skin_10": "Client/ressources/skins/skin_10.png",
+        "skin_11": "Client/ressources/skins/skin_11.png",
+        "skin_12": "Client/ressources/skins/skin_12.png",
+        "skin_13": "Client/ressources/skins/skin_13.png",
+        "skin_14": "Client/ressources/skins/skin_14.png",
+        "skin_15": "Client/ressources/skins/skin_15.png",
+        "skin_16": "Client/ressources/skins/skin_16.png"
+    },
+    "background_list": {
+        "Blue_Nebular": "Client/ressources/Themes/scroll_back.png",
+        "Green_Nebular": "Client/ressources/Themes/Green_Nebular.png",
+        "Purple_Nebular": "Client/ressources/Themes/Purple_Nebular.png",
+        "Red_Nebular": "Client/ressources/Themes/Red_Nebular.png",
+        "Yellow_Nebular": "Client/ressources/Themes/Yellow_Nebular.png"
+    },
+
+    "enemys": {
+        "Charger": {
+            "path":"Client/ressources/r-typesheet3.png",
+            "width": 100,
+            "height": 100,
+            "factorX": 2,
+            "factorY": 2,
+
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 17,
+                    "StartFrame_height": 105,
+                    "FrameSize_x": 17,
+                    "FrameSize_y": 105,
+                    "frameCount": 12,
+                    "frameDuration": 0.1,
+                    "offset_x" : 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "Serpent": {
+           "path":"Client/ressources/r-typesheet19.png",
+            "width": 230,
+            "height": 27,
+            "factorX": 2,
+            "factorY": 2,
+
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 32,
+                    "StartFrame_height": 27,
+                    "FrameSize_x": 33,
+                    "FrameSize_y": 27,
+                    "frameCount": 7,
+                    "frameDuration": 0.1,
+                    "offset_x" : 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "Tank": {
+           "path":"Client/ressources/tank.png",
+            "width": 50,
+            "height": 50,
+            "factorX": 2,
+            "factorY": 2,
+
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 65,
+                    "StartFrame_height": 50,
+                    "FrameSize_x": 65,
+                    "FrameSize_y": 50,
+                    "frameCount": 3,
+                    "frameDuration": 0.1,
+                    "offset_x" : 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "FastShip": {
+           "path":"Client/ressources/FastShip.png",
+            "width": 100,
+            "height": 100,
+            "factorX": 2,
+            "factorY": 2,
+
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 32,
+                    "StartFrame_height": 30,
+                    "FrameSize_x": 32,
+                    "FrameSize_y": 30,
+                    "frameCount": 8,
+                    "frameDuration": 0.1,
+                    "offset_x" : 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "Rock": {
+           "path":"Client/ressources/r-typesheet17.png",
+            "width": 100,
+            "height": 500,
+            "factorX": 2,
+            "factorY": 2,
+
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 65,
+                    "StartFrame_height": 132,
+                    "FrameSize_x": 65,
+                    "FrameSize_y": 132,
+                    "frameCount": 8,
+                    "frameDuration": 0.1,
+                    "offset_x" : 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "LZE": {
+           "path":"Client/ressources/r-typesheet8.png",
+            "width": 266,
+            "height": 32,
+            "factorX": 2,
+            "factorY": 2,
+
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 33,
+                    "StartFrame_height": 32,
+                    "FrameSize_x": 34,
+                    "FrameSize_y": 32,
+                    "frameCount": 8,
+                    "frameDuration": 0.1,
+                    "offset_x" : 0,
+                    "offset_y": 0
+                }
+            }
+        },
+
+        "StaticBoss": {
+            "path":"Client/ressources/Static_boss.png",
+            "width": 3056,
+            "height": 462,
+            "factorX": 1,
+            "factorY": 1,
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 509,
+                    "StartFrame_height": 462,
+                    "FrameSize_x": 510,
+                    "FrameSize_y": 462,
+                    "frameCount": 6,
+                    "frameDuration": 0.1,
+                    "offset_x": 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "VerticalBoss": {
+            "path":"Client/ressources/VerticalBoss.png",
+            "width": 980,
+            "height": 113,
+            "factorX": 2,
+            "factorY": 2,
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 122,
+                    "StartFrame_height": 113,
+                    "FrameSize_x": 123,
+                    "FrameSize_y": 113,
+                    "frameCount": 8,
+                    "frameDuration": 0.1,
+                    "offset_x": 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "DragonHead": {
+            "path":"Client/ressources/DragonHead.png",
+            "width": 306,
+            "height": 101,
+            "factorX": 2,
+            "factorY": 2,
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 102,
+                    "StartFrame_height": 101,
+                    "FrameSize_x": 103,
+                    "FrameSize_y": 101,
+                    "frameCount": 3,
+                    "frameDuration": 0.1,
+                    "offset_x": 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "Megatron": {
+            "path":"Client/ressources/Megatron.png",
+            "width": 1832,
+            "height": 324,
+            "factorX": 1,
+            "factorY": 1,
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 458,
+                    "StartFrame_height": 324,
+                    "FrameSize_x": 459,
+                    "FrameSize_y": 324,
+                    "frameCount": 4,
+                    "frameDuration": 0.1,
+                    "offset_x": 0,
+                    "offset_y": 0
+                }
+            }
+        }
+    },
+    "Enemy_bullets": {
+        "simple_bullet": {
+            "path": "Client/ressources/enemy_ball.png",
+            "width": 131,
+            "height": 10,
+            "factorX": 2,
+            "factorY": 2,
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 16,
+                    "StartFrame_height": 10,
+                    "FrameSize_x": 17,
+                    "FrameSize_y": 10,
+                    "frameCount": 8,
+                    "frameDuration": 0.1,
+                    "offset_x" : 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "bullet_type3": {
+            "path": "Client/ressources/bullet_type3.png",
+            "width": 127,
+            "height": 32,
+            "factorX": 2,
+            "factorY": 2,
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 31,
+                    "StartFrame_height": 32,
+                    "FrameSize_x": 32,
+                    "FrameSize_y": 10,
+                    "frameCount": 4,
+                    "frameDuration": 0.1,
+                    "offset_x" : 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "charge_attack": {
+            "path":"Client/ressources/ch_attack.png",
+            "width": 129,
+            "height": 35,
+            "factorX": 3,
+            "factorY": 3,
+            
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 32,
+                    "StartFrame_height": 35,
+                    "FrameSize_x": 33,
+                    "FrameSize_y": 35,
+                    "frameCount": 4,
+                    "frameDuration": 0.1,
+                    "offset_x" : 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "FireBall": {
+            "path":"Client/ressources/fire_ball.png",
+            "width": 130,
+            "height": 30,
+            "factorX": 2,
+            "factorY": 2,
+            
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 32,
+                    "StartFrame_height": 30,
+                    "FrameSize_x": 33,
+                    "FrameSize_y": 30,
+                    "frameCount": 4,
+                    "frameDuration": 0.1,
+                    "offset_x" : 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "Breath": {
+            "path":"Client/ressources/breath.png",
+            "width": 130,
+            "height": 32,
+            "factorX": 2,
+            "factorY": 2,
+            
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 32,
+                    "StartFrame_height": 32,
+                    "FrameSize_x": 33,
+                    "FrameSize_y": 32,
+                    "frameCount": 4,
+                    "frameDuration": 0.1,
+                    "offset_x" : 0,
+                    "offset_y": 0
+                }
+            }
+        },
+        "Wave": {
+            "path":"Client/ressources/wave.png",
+            "width": 130,
+            "height": 30,
+            "factorX": 2,
+            "factorY": 2,
+            
+            "Animations": {
+                "idle": {
+                    "StartFrame_left": 0,
+                    "StartFrame_top": 0,
+                    "StartFrame_width": 32,
+                    "StartFrame_height": 30,
+                    "FrameSize_x": 33,
+                    "FrameSize_y": 30,
+                    "frameCount": 4,
+                    "frameDuration": 0.1,
+                    "offset_x" : 0,
+                    "offset_y": 0
+                }
+            }
+        }
+    },
+    "power_ups": {
+        "Health": {
+            "path":"Client/ressources/health.png",
+            "width": 32,
+            "height": 64,
+            "factorX": 1,
+            "factorY": 1
+        },
+        "Power": {
+            "path":"Client/ressources/power.png",
+            "width": 32,
+            "height": 64,
+            "factorX": 1,
+            "factorY": 1
+        },
+        "Speed": {
+            "path":"Client/ressources/speed.png",
+            "width": 69,
+            "height": 69,
+            "factorX": 1,
+            "factorY": 1
+        }
+    },
+    "game": {
+        "top_wall": "Client/ressources/Top_wall.png",
+        "back_wall": "Client/ressources/Bot_wall.png"
+    },
+    "sounds": {
+        "shot": "Client/ressources/sound/laser-shot.ogg",
+        "hover" : "Client/ressources/sound/interface-over.ogg",
+        "click" : "Client/ressources/sound/interface-click.ogg",
+        "explosion": "Client/ressources/sound/explosions.ogg",
+        "warning": "Client/ressources/sound/warning-alarm.ogg",
+        "boos_shot": "Client/ressources/sound/boss-shot.wav",
+        "enemy-shot": "Client/ressources/sound/enemy-shot.wav",
+        "charge": "Client/ressources/sound/charge.ogg",
+        "Boss-Defeated": "Client/ressources/sound/Boss-Defeated.ogg"
+
+    },
+    "music": {
+        "menu":  "Client/ressources/sound/Rush-OST-Ketchapp-Run-Theme-5-Extended.ogg",
+        "lobby": "Client/ressources/sound/Rush-OST-Ketchapp-Run-Theme-5-Extended.ogg"
+    },
+    "game_music": {
+        "Blue_Nebular": "Client/ressources/sound/Blue_Nebular.ogg",
+        "StaticBoss": "Client/ressources/sound/StaticBoss-Theme.ogg",
+        "Green_Nebular": "Client/ressources/sound/Green_Nebular.wav",
+        "VerticalBoss": "Client/ressources/sound/VerticalBoss.wav",
+        "Red_Nebular": "Client/ressources/sound/Red_Nebular.wav",
+        "DragonHead": "Client/ressources/sound/DragonHead.wav",
+        "Yellow_Nebular": "Client/ressources/sound/Yellow_Nebular.wav",
+        "Megatron": "Client/ressources/sound/Megatron.wav"
+    }
+}
