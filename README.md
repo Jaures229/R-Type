@@ -55,13 +55,13 @@ The following dependencies are required to build and run the project:
 - **Server**:
   - To start the server, run the `server` executable and specify the port:
     ```bash
-    ./server <PORT>
+    ././r-type_server <IP> <PORT>
     ```
 
 - **Client**:
   - To start the client, run the `client` executable and specify the server IP and port:
     ```bash
-    ./client <IP_ADRESS> <PORT>
+    ./r-type_client <IP_ADRESS> <PORT>
     ```
 
 ---
